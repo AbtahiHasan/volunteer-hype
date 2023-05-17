@@ -1,3 +1,4 @@
+import Banner from "./Banner";
 import Navbar from "./Navbar";
 import banner from "/banner.png"
 const Header = () => {
@@ -13,6 +14,8 @@ const Header = () => {
             </div>
 
             <Navbar/>
+
+            <Banner/>
         </header>
     );
 };
